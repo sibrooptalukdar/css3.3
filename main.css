@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	background-image:url(images/body-bg.jpg);
+}
+.wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+.section{
+	background-color: #f7f7f7;
+	padding: 15px;
+	margin: 10px 0;	
+	font-family: Roboto;
+}
+.section h4{
+	background-color: #2196F3;
+	padding: 20px;	
+	margin: 0;
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 300;
+}
+.form-table td{
+	padding: 10px;
+	min-width: 125px;
+	font-family: Roboto;
+}
+.form-table input{
+	padding: 2px 15px;
+	width: 277px;
+	height: 30px;
+}
+.form-table textarea{
+	width: 277px;
+	padding: 2px 15px;
+}
+.card-details{
+	list-style:none;
+	padding-left: 0px;
+}
+.card-details li{
+	display: inline;
+	vertical-align: center;
+	padding: 10px 40px;
+	}
+.card-details img{
+	vartical-align: center;
+}
+.submit{
+	text-align: center;
+}
+.button{
+	padding: 15px 80px;
+	background-color: #2196F3;
+	text-transform: uppercase;	
+	color: #fff;
+	border: none;
+	margin-bottom: 10px;
+	text-align: center;
+	
+}

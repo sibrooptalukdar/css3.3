@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS3.3</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="form">
+    	<form class="form-body" type="get" name="registration-form">
+        	<div class="section">
+        	<h4>Step 1: Your Details</h4>
+            <table class="form-table" >
+            <tr>
+            <td>Your Name</td>
+            <td><input type="text" name="name" placeholder="Your first name and last name" /></td>
+            </tr>
+            <tr>
+            <td>Email</td>
+            <td><input type="text" name="email" placeholder="example@domainname.com" /></td>
+            </tr>
+            <tr>
+            <td>Phone Number</td>
+            <td><input type="text" name="phone-number" placeholder="e.g. 1234567890" /></td>
+            </tr>
+            </table>
+            </div><!-- section end -->
+            <div class="section">
+            <h4>Step 2: Delivery Address</h4>
+            <table class="form-table" >
+            <tr>
+            <td>Address</td>
+            <td><textarea name="address" placeholder="" rows="5" cols="	"></textarea></td>
+            </tr>
+            <tr>
+            <td>Postcode</td>
+            <td><input type="text" name="post-code" /></td>
+            </tr>
+            <tr>
+            <td>Country</td>
+            <td><input type="text" name="country" /></td>
+            </tr>
+            </table>
+            </div><!-- section end -->
+            <div class="section">
+            <h4>Step 3: Card Details</h4>
+            <p>Card type</p>
+            <ul class="card-details">
+            	<li><input type="radio" name="card-type" value="Visa" /><img src="images/visa.png" /></li>
+                <li><input type="radio" name="card-type" value="AmEX" /><img src="images/amex.png" /></li>
+                <li><input type="radio" name="card-type" value="Mastercard" /><img src="images/master-card.png" /></li>
+            </ul>
+            <table class="form-table" >
+            <tr>
+            <td>Card Number</td>
+            <td><input type="text" name="card-number" /></td>
+            </tr>
+            <tr>
+            <td>Security Code</td>
+            <td><input type="password" name="security-code" /></td>
+            </tr>
+            <tr>
+            <td>Name on the card</td>
+            <td><input type="text" name="name-on-the-card" placeholder="Exact Name on the card" /></td>
+            </tr>
+            </table>
+            </div><!-- section end -->
+            <div class="submit">
+            <input type="submit" value="submit" class="button"/>
+            </div>
+        </form><!-- form-body end -->
+    </div><!-- form end -->
+</div><!-- wrapper end -->
+</body>
+</html>
